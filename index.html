@@ -26,7 +26,14 @@
             <a href="flower.html" style="color: #fff;">CLICK AQUÍ</a>
         </button>
     </div>
-
+    <script>
+        document.addEventListener('click', function () {
+            var audio = document.querySelector('audio');
+            if (audio) {
+                audio.play();
+            }
+        });
+    </script>
 </body>
 
 </html>
