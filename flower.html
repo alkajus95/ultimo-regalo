@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="icon" href="img/flowers.png" type="image/x-icon" />
-    <title>Flores</title>
+    <title>Flower</title>
   </head>
   <body class="container">
-    <audio src="./sound/Canción sin título (1).mp3" autoplay></audio>
+    <audio src="./sound/milo.mp3" autoplay></audio>
+    <script>
+      document.addEventListener('click', function() {
+        var audio = document.querySelector('audio');
+        if (audio && audio.paused) {
+          audio.play();
+        }
+      });
+    </script>
     <div id="lyrics"></div>
     <h1 class="titulo">No es la gran cosa pero es un regalito JAJAJAJ</h1>
-
+  
     <div class="night"></div>
     <!-- Luna y estrellas -->
     <div class="moon"></div>
